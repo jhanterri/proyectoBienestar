@@ -1,5 +1,5 @@
 package proyectobienestarpersonal;
-
+import java.util.Scanner;
 
 public class Dass21 {
 
