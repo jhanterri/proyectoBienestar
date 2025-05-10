@@ -1,6 +1,6 @@
 package proyectobienestarpersonal;
 
-import com.formdev.flatlaf.themes.FlatMacDarkLaf;
+import com.formdev.flatlaf.FlatDarkLaf;
 import javax.swing.UIClientPropertyKey;
 import javax.swing.UIManager;
 
@@ -72,7 +72,7 @@ public class LoginInterfaz extends javax.swing.JFrame {
         //</editor-fold>
         
         try {
-            UIManager.setLookAndFeel(new FlatMacDarkLaf());
+            UIManager.setLookAndFeel(new FlatDarkLaf());
         } catch (Exception ex) {
             System.err.println("Failed to initialize LaF");
 }
