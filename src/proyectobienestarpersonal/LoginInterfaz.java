@@ -72,11 +72,10 @@ public class LoginInterfaz extends javax.swing.JFrame {
         //</editor-fold>
         
         try {
-            FlatMacDarkLaf.setup();
             UIManager.setLookAndFeel(new FlatMacDarkLaf());
         } catch (Exception ex) {
-             System.err.println( "Failed to initialize LaF" );
-        }
+            System.err.println("Failed to initialize LaF");
+}
         
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
